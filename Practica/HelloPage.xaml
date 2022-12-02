@@ -1,0 +1,20 @@
+﻿<Page x:Class="Practica.HelloPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Practica"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      
+      Title="HelloPage">
+
+    <Grid x:Name="_123" Background="White" AutomationProperties.Name="123" RenderTransformOrigin="0.506,0.513" MaxWidth="800" MaxHeight="450" Height="450" Width="800">
+        <Label x:Name="___Без_имени_" Content="       Салон красоты &quot;Мордочка&quot;" HorizontalAlignment="Left" VerticalAlignment="Top" Height="85" Width="800" FontSize="48" Background="#FFFFE4FF"/>
+        <Button Content="Выход" HorizontalAlignment="Left" Margin="639,396,0,0" VerticalAlignment="Top" Width="151" Height="44" FontSize="24" Click="Button_Click" Background="#FFFF4A6D" RenderTransformOrigin="0.498,0.801"/>
+        <Button Content="Список клиентов" HorizontalAlignment="Left" Margin="430,185,0,0" VerticalAlignment="Top" Width="210" Height="91" FontSize="20" Click="Button_Click_1" Background="#FFFF4A6D"/>
+        <Button Content="Посещения клиента" HorizontalAlignment="Left" Margin="170,185,0,0" VerticalAlignment="Top" Width="210" Height="91" FontSize="20" Click="Button_Click_2" Background="#FFFF4A6D"/>
+        <Image Margin="715,10,10,365" Source="beauty_logo.ico" Stretch="Fill"/>
+        <Image Margin="10,10,715,365" Source="beauty_logo.ico" Stretch="Fill"/>
+    </Grid>
+</Page>
